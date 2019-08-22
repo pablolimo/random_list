@@ -1,5 +1,10 @@
 # Random Gif List :)
 
+## First of all
+
+Run in the root of the project:
+### `yarn`
+
 ## Available Scripts
 
 In the project directory, you can run:
