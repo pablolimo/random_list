@@ -1,0 +1,10 @@
+App View
+flow together
+  Vertical
+  flow together
+  alignItems center
+  flexBasis auto
+  flexGrow 1
+  flexShrink 1
+  justifyContent center
+    GifList

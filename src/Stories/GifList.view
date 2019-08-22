@@ -1,0 +1,6 @@
+GifList View
+    Label
+        title Random List
+    List
+        from <
+        Gif

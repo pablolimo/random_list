@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400&display=swap');
+* {
+	font-family: 'Roboto', sans-serif;
+}
+body, html {
+	background-color: ghostwhite;
+}
+.giphy-embed {
+	width: 350px;
+	max-width: 350px;
+	word-break: break-all;
+	padding: 5px 0;
+	background-color: #fff;
+	box-shadow: 0 0 2px rgba(0,0,0,.2);
+	height: auto;
+	border-radius: 2px;
+}
+.giphy-embed:hover {
+	box-shadow: 0 0 8px rgba(0,0,0,.35);
+}
+.giphy-embed:not(:last-child) {
+	margin-bottom: 40px;
+}
+.giphy-embed > div {
+	padding: 0 10px 0 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	color: #666;
+	user-select: none;
+}
+@keyframes flickerAnimation {
+	0%   { opacity:1; }
+	50%  { opacity:0; }
+	100% { opacity:1; }
+}
+.animate-flicker {
+	animation: flickerAnimation 2s 2;
+}
+.label {
+	padding: 10px;
+	font-style: italic;
+	font-size: 1.5em;
+	margin: 40px 0;
+	border-radius: 10px;
+	background-color: #32e0c9;
+	color: #fff;
+}
